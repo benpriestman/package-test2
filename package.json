@@ -10,6 +10,11 @@
     "yosay": "https://github.com/benpriestman/yosay#testbranch"
   },
   "scripts": {
-    "test": "node index.js"
-  }
+    "test": "node index.js",
+    "build": "node index.js > yosay.txt"
+  },
+  "files": [
+    "index.js",
+    "yosay.txt"
+  ]
 }
