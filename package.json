@@ -10,11 +10,11 @@
     "yosay": "https://github.com/benpriestman/yosay#testbranch"
   },
   "scripts": {
-    "test": "$npm_config_bin_thing2",
-    "build": "$npm_config_bin_thing2 > yosay.txt"
+    "test": "node $npm_package_bin_thing2",
+    "build": "node $npm_package_bin_thing2 > yosay.txt"
   },
   "files": [
-    "index.js"
+    "./index.js"
   ],
   "bin": {
     "thing2": "./index.js"
