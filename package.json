@@ -6,7 +6,7 @@
   "author": "Benjamin Priestman <benjamin@miniverse.me.uk>",
   "license": "MIT",
   "private": false,
-  "devDependencies": {
+  "dependencies": {
     "yosay": "https://github.com/benpriestman/yosay#testbranch"
   },
   "scripts": {
