@@ -1,5 +1,5 @@
 {
-  "name": "package-test2",
+  "name": "thing2",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:benpriestman/package-test2.git",
@@ -10,11 +10,13 @@
     "yosay": "https://github.com/benpriestman/yosay#testbranch"
   },
   "scripts": {
-    "test": "node index.js",
-    "build": "node index.js > yosay.txt"
+    "test": "$npm_config_bin_thing2",
+    "build": "$npm_config_bin_thing2 > yosay.txt"
   },
   "files": [
-    "index.js",
-    "yosay.txt"
-  ]
+    "index.js"
+  ],
+  "bin": {
+    "thing2": "./index.js"
+  }
 }
